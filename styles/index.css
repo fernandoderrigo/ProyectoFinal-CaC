@@ -16,76 +16,82 @@ body {
 }
 /* Fin Estilos del Cuerpo */
 
-/* Inicio Header */
+/* Inicio de Header */
 header {
-  text-align: center;
   background-color: rgb(17, 17, 17);
-  color: white;
-  font-size: 1.25rem;
+  padding: 1%;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 17%;
-  margin: 0%;
+  justify-content: space-between;
 }
-/* Fin Header */
-
-/* Inicio Título Header */
 header h5 {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  height: 2.5%;
   background-color: rgb(252, 0, 0);
   color: white;
   text-align: center;
-  padding: 0.01% 0;
+  padding: 0.2% 0;
   margin: 0;
   z-index: 999;
-}
-/* Fin Título Header */
-
-/* Inicio Sección Header */
-header section {
-  display: flex;
   align-items: center;
+}
+header section {
+  margin-right: 10px;
+  display: flex;
   justify-content: space-between;
 }
-/* Fin Sección Header */
 
-/* Inicio Logo */
-.logo {
-  width: 100%;
+header img {
+  width: 90%;
+  background-color: rgb(233, 216, 196);
+
+  margin-bottom: 5px;
 }
-/* Fin Logo */
 
-/* Inicio Navegación */
-nav ul {
+header .icons {
+  display: flex;
+  gap: 0.8em;
+  font-size: 1.3rem;
+  align-items: center;
+}
+
+nav {
   display: flex;
   justify-content: center;
-  align-items: center;
-  list-style: none;
-  margin-right: 25%;
 }
-/* Fin Navegación */
 
-/* Inicio Enlaces de Navegación */
-.nav-header a {
-  background-color: rgba(238, 183, 166, 0.291);
-  color: #bcb8b8;
-  margin: 0 5px;
-  cursor: pointer;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 5px;
+  border-bottom: 1px solid transparent;
+  padding: 2px 4px;
+}
+
+nav ul li:hover {
+  border-color: #148171;
+}
+
+nav ul li a {
+  color: #333;
+  align-items: center;
   text-decoration: none;
-  padding: 15px 25px;
-  transition: background-color 0.5s, color 0.5s;
-  border-radius: 15px;
-  font-weight: bold;
+  font-size: 1.4rem;
+  color: white;
 }
-.nav-header a:hover {
-  background-color: rgb(250, 5, 5);
-  color: #ffffff;
+
+nav ul li:hover a {
+  color: #148171;
+  /* Fin de Header */
 }
-/* Fin Enlaces de Navegación */
 
 /* Inicio Estilos de Texto */
 h2,
@@ -239,18 +245,19 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 10%;
+    height: 25%;
   }
 
   .logo {
-    width: 200px;
-    margin-bottom: 60px;
+    width: 75%;
+    margin-bottom: 10%;
     margin-top: 70px;
     text-align: left;
   }
 
   nav {
     text-align: center;
+    margin-bottom: 15%;
   }
 
   nav ul {
@@ -272,29 +279,21 @@ footer {
   header h5 {
     font-size: 0.9rem;
     margin-top: 0;
+    height: 4%;
   }
 }
 /* Fin Estilos para pantallas pequeñas */
 @media (min-width: 928px) and (max-width: 1152px) {
-
-
   img.logo {
     width: 75%;
-
   }
-
-
 }
 @media (min-width: 769px) and (max-width: 927px) {
-header section{
-  display:flex;
-align-items: center;
-
-}
+  header section {
+    display: flex;
+    align-items: center;
+  }
   img.logo {
     width: 75%;
-
   }
-
-
 }

@@ -1,14 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chocoarte Delicioso</title>
-    <link rel="shortcut icon" href="./assets/index/logo/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/index/logo/favicon.ico"
+      type="image/x-icon"
+    />
     <script
       src="https://kit.fontawesome.com/4db8309fde.js"
+      crossorigin="anonymous"
+      src="https://kit.fontawesome.com/4ecd7ae358.js"
       crossorigin="anonymous"
     ></script>
     <link
@@ -17,55 +34,43 @@
     />
   </head>
   <body>
+    <!--Inicio de Header -->
     <header>
-      <!-- shipments -->
       <div>
         <h5>ENVÍOS A TODA ZONA ESTE CON TU COMPRA SUPERIOR A $100.000</h5>
       </div>
 
       <section>
-        <!-- Title and Logo  -->
-        <section>
-          <img
-            src="./assets/index/logo/logo_oscuro.png"
-            class="logo"
-            alt="Logo"
-          />
-        </section>
-
-        <!-- Barra de navegación -->
-        <nav class="nav-header">
-          <ul>
-            <li>
-              <a href="./index.html" class="btn btn-link btn-nav show-content"
-                >Inicio</a
-              >
-            </li>
-            <li>
-              <a
-                href="./pages/productos.html"
-                class="btn btn-link btn-nav show-content"
-                >Productos</a
-              >
-            </li>
-            <li>
-              <a
-                href="./pages/sobre_nosotros.html"
-                class="btn btn-link btn-nav show-content"
-                >Nosotros</a
-              >
-            </li>
-            <li>
-              <a
-                href="./pages/contacto.html"
-                class="btn btn-link btn-nav show-content"
-                >Contacto</a
-              >
-            </li>
-          </ul>
-        </nav>
+        <div class="logo">
+          <img src="./assets/index/logo/logo_oscuro.png" alt="Logo" />
+        </div>
+        <div class="icons">
+          <a class="icon" href="./pages/login.html">
+            <i class="fa-solid fa-user"></i
+          ></a>
+          <a
+            class="icon"
+            href="https://fernandoderrigo.github.io/PEDRO-PEDRO-PEDRO-PE/"
+          >
+            <i class="fa-solid fa-star"></i
+          ></a>
+        </div>
       </section>
+
+      <nav>
+        <ul>
+          <li><a class="icon" href="/">Inicio</a></li>
+          <li><a class="icon" href="./pages/productos.html">Productos</a></li>
+          <li>
+            <a class="icon" href="./pages/sobre_nosotros.html"
+              >Sobre Nosotros</a
+            >
+          </li>
+          <li><a class="icon" href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
+    <!-- Fin de Header -->
     <main>
       <!-- Inicio Carrousel -->
       <h2>Productos Destacados</h2>
@@ -223,7 +228,7 @@
     </main>
     <!-- Pie de página -->
     <footer>
-      <p>Derechos de autor © 2023 Fer :D</p>
+      <p>Derechos de autor © 2024 Grupo 20 Codo a Codo: Fullstack Python</p>
     </footer>
 
     <script src="./scripts/index.js"></script>

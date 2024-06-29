@@ -14,7 +14,6 @@ body {
   margin-top: 20px;
   background-color: #d6bc75;
   overflow-x: hidden;
-
 }
 
 /* Fin Estilos del Cuerpo */
@@ -30,7 +29,6 @@ header {
   width: 100%;
   height: 15%;
   margin: 0%;
-
 }
 
 /* Fin Header */
@@ -128,8 +126,6 @@ h2,
   font-weight: bold;
   text-align: center;
   margin-bottom: 10px;
-
-
 }
 
 .lista {
@@ -139,7 +135,6 @@ h2,
   align-items: center;
   padding: 0;
   margin: 0;
-
 }
 
 .tipo {
@@ -158,7 +153,6 @@ h2,
   font-weight: bold;
   background-color: #d6bc75;
   text-align: center;
-
 }
 
 a {
@@ -174,8 +168,6 @@ a {
 
   display: flex;
   flex-wrap: wrap;
-
-
 }
 
 .tipo-producto {
@@ -209,7 +201,6 @@ a {
   flex-direction: column;
   border-radius: 15px;
   transition: transform 0.3s ease;
-
 }
 
 .card-title {
@@ -227,7 +218,6 @@ a {
   display: block;
   background-color: #c99383;
   border: #c99383 1px solid;
-
 }
 
 .carrito {
@@ -235,7 +225,6 @@ a {
   height: 20px;
   margin: auto;
   display: block;
-
 }
 
 .card-img-top {
@@ -255,7 +244,6 @@ a {
 .card-text {
   text-align: center;
   font-size: 1.5rem;
-
 }
 
 /* Fin Tarjetas */
@@ -301,8 +289,6 @@ a {
   background-color: rgba(194, 61, 21, 0.291);
   border: none;
   padding: 5px 10px;
-
-
 }
 
 .total {
