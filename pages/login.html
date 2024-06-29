@@ -1,97 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chocoarte Delicioso</title>
-    <link rel="stylesheet" href="../styles/index.css" />
-    <link rel="stylesheet" href="../styles/login.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chocoarte Delicioso</title>
+  <link rel="stylesheet" href="../styles/index.css" />
+  <link rel="stylesheet" href="../styles/register.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="shortcut icon"
-      href="../assets/index/logo/favicon.ico"
-      type="image/x-icon"
-    />
-    <script
-      src="https://kit.fontawesome.com/4db8309fde.js"
-      crossorigin="anonymous"
-      src="https://kit.fontawesome.com/4ecd7ae358.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-  </head>
-  <body>
-    <!--Inicio de Header -->
-    <header>
-      <div>
-        <h5>ENVÍOS A TODA ZONA ESTE CON TU COMPRA SUPERIOR A $100.000</h5>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" href="../assets/index/logo/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<body>
+  <!--Inicio de Header -->
+  <header>
+    <div>
+      <h5>ENVÍOS A TODA ZONA ESTE CON TU COMPRA SUPERIOR A $100.000</h5>
+    </div>
+
+    <section>
+      <div class="logo">
+        <img src="../assets/index/logo/logo_oscuro.png" alt="Logo" />
       </div>
-
-      <section>
-        <div class="logo">
-          <img src="../assets/index/logo/logo_oscuro.png" alt="Logo" />
-        </div>
-        <div class="icons">
-          <a class="icon" href="login.html">
-            <i class="fa-solid fa-user"></i
-          ></a>
-          <a
-            class="icon"
-            href="https://fernandoderrigo.github.io/PEDRO-PEDRO-PEDRO-PE/"
-          >
-            <i class="fa-solid fa-star"></i
-          ></a>
-        </div>
-      </section>
-
-      <nav>
-        <ul>
-          <li><a class="icon" href="https://fernandoderrigo.github.io/ProyectoFinal-CaC/index.html">Inicio</a></li>
-          <li><a class="icon" href="./pages/productos.html">Productos</a></li>
-          <li>
-            <a class="icon" href="./pages/sobre_nosotros.html"
-              >Sobre Nosotros</a
-            >
-          </li>
-          <li><a class="icon" href="./pages/contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Fin de Header -->
-    <main>
-      <div class="login-container">
-        <form id="loginForm">
-          <h2>Iniciar Sesión</h2>
-          <label for="username">Usuario</label>
-          <input type="text" id="username" name="username" required />
-          <label for="password">Contraseña</label>
-          <input type="password" id="password" name="password" required />
-          <button type="submit">Ingresar</button>
-        </form>
-        <p>¿No tienes usuario? <a href="./register.html">Crea uno AQUI</a></p>
+      <div class="icons">
+        <a class="icon" href="login.html">
+          <i class="fa-solid fa-user"></i>
+        </a>
+        <a class="icon" href="https://fernandoderrigo.github.io/PEDRO-PEDRO-PEDRO-PE/">
+          <i class="fa-solid fa-star"></i>
+        </a>
       </div>
-    </main>
+    </section>
 
-    <!-- Pie de página -->
-    <footer>
-      <p>Derechos de autor © 2023 Fer :D</p>
-    </footer>
+    <nav>
+      <ul>
+        <li><a class="icon" href="https://fernandoderrigo.github.io/ProyectoFinal-CaC/index.html">Inicio</a></li>
+        <li><a class="icon" href="./pages/productos.html">Productos</a></li>
+        <li><a class="icon" href="./pages/sobre_nosotros.html">Sobre Nosotros</a></li>
+        <li><a class="icon" href="./pages/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Fin de Header -->
 
-    <script src="../scripts/login.js"></script>
-  </body>
+  <main>
+    <div class="login-container">
+      <form id="loginForm">
+        <h2>Iniciar Sesión</h2>
+        <label for="username">Usuario</label>
+        <input type="text" id="username" name="username" required />
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" required />
+        <button type="submit">Ingresar</button>
+      </form>
+      <p>¿No tienes usuario? <a href="./register.html">Crea uno AQUI</a></p>
+    </div>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>Derechos de autor © 2023 Fer :D</p>
+  </footer>
+
+  <script src="../scripts/login.js"></script>
+  <script src="https://kit.fontawesome.com/4db8309fde.js" crossorigin="anonymous"></script>
+</body>
 </html>
