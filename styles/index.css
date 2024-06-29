@@ -9,7 +9,6 @@
 /* Inicio Estilos del Cuerpo */
 body {
   font-family: sans-serif;
-  height: 100svh;
   margin-top: 20px;
   background-color: rgb(233, 216, 196);
   overflow-x: hidden;
@@ -43,55 +42,45 @@ header section {
   display: flex;
   justify-content: space-between;
 }
-
 header img {
   width: 90%;
   background-color: rgb(233, 216, 196);
-
   margin-bottom: 5px;
 }
-
 header .icons {
   display: flex;
   gap: 0.8em;
   font-size: 1.3rem;
   align-items: center;
 }
-
 nav {
   display: flex;
   justify-content: center;
 }
-
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 nav ul li {
   display: inline;
   margin-right: 5px;
   border-bottom: 1px solid transparent;
   padding: 2px 4px;
 }
-
 nav ul li:hover {
   border-color: #148171;
 }
-
 nav ul li a {
   color: #333;
-  align-items: center;
   text-decoration: none;
   font-size: 1.4rem;
   color: white;
 }
-
 nav ul li:hover a {
   color: #148171;
-  /* Fin de Header */
 }
+/* Fin de Header */
 
 /* Inicio Estilos de Texto */
 h2,
@@ -118,13 +107,10 @@ h2,
   background-size: cover;
   background-position: center;
   position: relative;
-  overflow: hidden;
 }
-
 .carrusel_cotainer {
   width: 500%;
 }
-
 .carrusel_items {
   display: grid;
   grid-template-rows: 1fr;
@@ -132,19 +118,16 @@ h2,
   place-items: center;
   transform: translateX(calc(-6 * 100% / 30));
 }
-
 .item {
   width: 100%;
   aspect-ratio: 1/1;
   margin: 0.3em;
   padding: 0.3em;
 }
-
 .item img {
   width: 100%;
   aspect-ratio: 1/1;
 }
-
 .buttons button {
   all: unset;
   cursor: pointer;
@@ -154,20 +137,16 @@ h2,
   color: rgba(255, 255, 255, 0.998);
   transition: transform 0.3s;
 }
-
 .buttons button:hover {
   color: rgba(0, 0, 0, 0.993);
   transform: scale(1.2);
 }
-
 .anterior {
   position: absolute;
   top: 40%;
   left: 0;
 }
-
 .siguiente {
-  all: unset;
   position: absolute;
   top: 40%;
   right: 0;
@@ -233,7 +212,7 @@ h2,
 
 /* Inicio Pie de página */
 footer {
-  background-image: url("../assets/index/Carrousel/banner.jpg");
+  background-image: url("../assets/index/Carrousel/banner_2_11zon.webp");
   bottom: 0;
   left: 0;
   width: 100%;
@@ -293,11 +272,13 @@ footer {
   }
 }
 /* Fin Estilos para pantallas pequeñas */
+
 @media (min-width: 928px) and (max-width: 1152px) {
   img.logo {
     width: 75%;
   }
 }
+
 @media (min-width: 769px) and (max-width: 927px) {
   header section {
     display: flex;
