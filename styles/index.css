@@ -270,6 +270,10 @@ footer {
     margin-top: 0;
     height: 4%;
   }
+  footer{
+    height: 25%;
+
+  }
 }
 /* Fin Estilos para pantallas pequeñas */
 
