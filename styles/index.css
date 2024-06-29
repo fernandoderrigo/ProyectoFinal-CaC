@@ -117,16 +117,22 @@ h2,
   grid-template-columns: repeat(30, calc(100% / 30));
   place-items: center;
   transform: translateX(calc(-6 * 100% / 30));
+
 }
+
 .item {
   width: 100%;
   aspect-ratio: 1/1;
   margin: 0.3em;
   padding: 0.3em;
+  border-radius: 50%;
+
 }
+
 .item img {
   width: 100%;
   aspect-ratio: 1/1;
+  border-radius: 15%;
 }
 .buttons button {
   all: unset;
