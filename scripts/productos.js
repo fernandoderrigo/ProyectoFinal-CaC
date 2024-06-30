@@ -14,10 +14,10 @@ const cargarProductos = async (rutaJson, tipoProducto) => {
 
     data[tipoProducto.toLowerCase()].forEach((element) => {
       const contenedor = document.createElement("div");
-      contenedor.setAttribute("class", "card");
+      contenedor.setAttribute("class", "card2");
       contenedor.setAttribute("style", "width: 18rem;");
       const imagen = document.createElement("img");
-      imagen.setAttribute("class", "card-img-top");
+      imagen.setAttribute("class", "card-img-top2");
       imagen.setAttribute("alt", element.nombre);
       imagen.src = element.img;
       contenedor.appendChild(imagen);
@@ -57,13 +57,10 @@ const cargarProductos = async (rutaJson, tipoProducto) => {
 // Llama a la función para cargar los datos de cada tipo de producto
 cargarProductos("../assets/Productos/bombones.json", "Bombones");
 cargarProductos("../assets/Productos/cajitas.json", "Cajitas");
+cargarProductos("../assets/Productos/figurasDeAzucar.json", "Figuras-Azucar");
 cargarProductos(
-  "../assets/Productos/figurasDeAzucar.json",
-  "Figuras en Azucar"
-);
-cargarProductos(
-  "../assets/Productos/figuraschocolate.json",
-  "Figuras en Chocolate"
+  "../assets/Productos/figurasChocolate.json",
+  "Figuras_chocolate"
 );
 cargarProductos("../assets/Productos/flores.json", "Flores");
 cargarProductos("../assets/Productos/huevos.json", "Huevos");
